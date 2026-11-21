@@ -1,21 +1,143 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My PSWD for Android: Privacy Policy</title><style>
-:root{--bg:#0b0b0c;--card:#16161a;--tx:#f3efe4;--mut:#a9a493;--ac:#f5b335;--ln:#2a2a30}
-@media (prefers-color-scheme:light){:root{--bg:#faf8f2;--card:#fff;--tx:#1b1a17;--mut:#6b675b;--ac:#b97800;--ln:#e5e0d2}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-main{max-width:720px;margin:0 auto;padding:40px 20px 70px}h1{font-size:2rem;margin:.2em 0}h2{font-size:1.2rem;margin:1.8em 0 .4em;color:var(--ac)}
-p,li{color:var(--tx)}small,.mut{color:var(--mut)}a{color:var(--ac)}.card{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:18px 20px;margin:16px 0}
-.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.3px}.dot{width:12px;height:12px;border-radius:50%;background:var(--ac)}
-nav a{margin-right:16px}footer{margin-top:40px;color:var(--mut);font-size:.9rem}
-</style></head><body><main><div class="brand"><span class="dot"></span>My PSWD for Android</div><nav><a href="index.html">Support</a><a href="android-privacy.html">Privacy Policy (Android)</a></nav>
-<h1>Privacy Policy: Android</h1><p class="mut">Last updated: 21 November 2026</p>
-<div class="card"><b>In short:</b> My PSWD for Android does not collect, send or share any of your data. Your vault stays on your phone, encrypted.</div>
-<h2>What we collect</h2><p>Nothing. There is no account, no sign-up, no analytics, no advertising and no tracking. The app contains no third-party code that collects data.</p>
-<h2>Where your data lives</h2><p>Your passwords and notes are saved only on your phone, encrypted with AES-256-GCM. The Android app does not have the internet permission at all, so it cannot upload your vault anywhere. I (the developer) cannot see, recover or reset your vault.</p>
-<h2>Fingerprint and screen-lock unlock</h2><p>If you turn on fingerprint or screen-lock unlock, the check is done by Android's built-in system. The app never receives your fingerprint, face or screen-lock details. It only gets a yes or no. A random key is kept in the phone's secure Android Keystore, protected by your fingerprint or screen lock, and it never leaves your phone.</p>
-<h2>Permissions</h2><ul><li><b>Biometrics / fingerprint:</b> only to unlock your vault.</li><li><b>Vibration:</b> for small touch feedback.</li></ul><p>The app does not ask for internet, storage, contacts, camera, microphone or location permission.</p>
-<h2>Backups and exports</h2><p>If you export a backup, it is an encrypted file saved or shared where you choose. You decide where it goes. Keep it safe, and remember that a lost master password or recovery key cannot be reset by me.</p>
-<h2>Email and ratings</h2><p>The Help button opens your own mail app. It only sends something if you press send in your mail app. The Rate button opens Google Play. Google handles Google Play under its own privacy policy.</p>
-<h2>Deleting your data</h2><p>Uninstalling the app, or clearing its data in Android settings, removes your vault from the phone. Nothing is stored anywhere else.</p>
-<h2>Children</h2><p>My PSWD is not directed at children and collects no personal information from anyone.</p>
-<h2>Changes</h2><p>If this policy changes, the new version will be posted on this page with a new date.</p>
-<h2>Contact</h2><p>Questions: please use the contact on the <a href="index.html">Support page</a>.</p><footer>&copy; 2026 James Jnr Keikura</footer></main></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0a0907"><title>My PSWD for Android: Privacy Policy</title><style>
+:root{--bg:#0a0907;--bg2:#15110a;--card:#17140e;--tx:#f5efe0;--mut:#b3a98c;--ac:#ffb81f;--ac2:#ff8a00;--ln:rgba(255,184,31,.22);--glow:rgba(255,160,0,.35)}
+@media (prefers-color-scheme:light){:root{--bg:#fbf8f0;--bg2:#fff3d8;--card:#fff;--tx:#201c12;--mut:#6f6853;--ac:#c27a00;--ac2:#e06a00;--ln:rgba(194,122,0,.28);--glow:rgba(255,160,0,.25)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:74px}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(900px 500px at 50% -80px,var(--glow),transparent 70%),radial-gradient(600px 400px at 100% 40%,rgba(255,120,0,.07),transparent 70%)}
+.bar{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--ln)}
+.bar div{max-width:820px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.bar b{display:flex;align-items:center;gap:9px;margin-right:auto;letter-spacing:.2px}.bar svg{width:24px;height:24px}
+.bar a{color:var(--mut);text-decoration:none;font-size:.92rem;padding:6px 12px;border-radius:99px}.bar a.on,.bar a:hover{color:var(--tx);background:var(--card);box-shadow:0 0 0 1px var(--ln)}
+main{max-width:820px;margin:0 auto;padding:30px 20px 90px}
+.hero{text-align:center;padding:34px 10px 14px}.hero svg{width:112px;height:112px;filter:drop-shadow(0 0 26px var(--glow));animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-6px)}}
+h1{font:800 clamp(2rem,6vw,3rem)/1.1 Georgia,"Times New Roman",serif;margin:.5em 0 .15em;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;color:var(--mut)}.sub{color:var(--mut);max-width:560px;margin:.9em auto 0}
+.badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:22px 0 6px}.badges span{border:1px solid var(--ln);background:var(--card);border-radius:99px;padding:7px 15px;font-size:.88rem;color:var(--ac)}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 8px;padding:0}.toc a{font-size:.88rem;text-decoration:none;color:var(--mut);border:1px solid var(--ln);border-radius:99px;padding:6px 13px;background:var(--card);transition:.2s}.toc a:hover{color:#1a1200;background:linear-gradient(90deg,var(--ac),var(--ac2));border-color:transparent;transform:translateY(-1px)}
+.sec{position:relative;background:linear-gradient(180deg,var(--card),color-mix(in srgb,var(--card) 88%,var(--bg2)));border:1px solid var(--ln);border-radius:22px;padding:6px 24px 20px;margin:20px 0;box-shadow:0 10px 40px -22px var(--glow);opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
+.sec.in{opacity:1;transform:none}
+h2{display:flex;align-items:center;gap:13px;font-size:1.28rem;margin:1.1em 0 .5em;color:var(--tx)}
+h2 i{flex:none;width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-style:normal;font-size:1.3rem;background:linear-gradient(135deg,rgba(255,184,31,.25),rgba(255,138,0,.08));border:1px solid var(--ln);box-shadow:0 0 18px -4px var(--glow)}
+h3{font-size:1.04rem;margin:1.4em 0 .15em;color:var(--ac)}p{margin:.5em 0}li{margin:.4em 0}ul,ol{padding-left:22px}a{color:var(--ac)}
+.card{background:linear-gradient(135deg,rgba(255,184,31,.13),rgba(255,138,0,.04));border:1px solid var(--ln);border-radius:18px;padding:16px 20px;margin:18px 0}
+.think{border-left:3px solid var(--ac);background:rgba(255,184,31,.07);border-radius:0 12px 12px 0;padding:11px 16px;margin:14px 0;color:var(--mut);font-style:italic}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:14px 0;font-size:.93rem;border:1px solid var(--ln);border-radius:14px;overflow:hidden}
+th,td{padding:10px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--ln)}tr:last-child td{border-bottom:0}th{background:rgba(255,184,31,.12);color:var(--ac);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}
+footer{margin-top:50px;text-align:center;color:var(--mut);font-size:.88rem}
+.top{position:fixed;right:18px;bottom:18px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;text-decoration:none;color:#1a1200;font-weight:800;background:linear-gradient(135deg,var(--ac),var(--ac2));box-shadow:0 8px 24px -6px var(--glow)}
+@media(max-width:560px){main{padding:18px 14px 90px}.sec{padding:4px 16px 16px;border-radius:18px}h2 i{width:36px;height:36px}}
+@media (prefers-reduced-motion:reduce){.hero svg{animation:none}.sec{opacity:1;transform:none;transition:none}}
+</style></head><body id="top">
+<header class="bar"><div><b><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe14a"/><stop offset="1" stop-color="#ff7a00"/></linearGradient></defs><path d="M32 4 56 12v19c0 14-10 24-24 29C18 55 8 45 8 31V12Z" fill="#120d04" stroke="url(#g)" stroke-width="4" stroke-linejoin="round"/><path d="M24 29v-5a8 8 0 0 1 16 0v5" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/><rect x="20" y="28" width="24" height="18" rx="4" fill="url(#g)"/><circle cx="32" cy="36" r="2.6" fill="#120d04"/><rect x="31" y="37" width="2" height="5" rx="1" fill="#120d04"/></svg>My PSWD</b><a href="android-support.html">Support</a><a href="android-privacy.html" class="on">Privacy</a></div></header>
+<main><div class="hero"><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe14a"/><stop offset="1" stop-color="#ff7a00"/></linearGradient></defs><path d="M32 4 56 12v19c0 14-10 24-24 29C18 55 8 45 8 31V12Z" fill="#120d04" stroke="url(#g)" stroke-width="4" stroke-linejoin="round"/><path d="M24 29v-5a8 8 0 0 1 16 0v5" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/><rect x="20" y="28" width="24" height="18" rx="4" fill="url(#g)"/><circle cx="32" cy="36" r="2.6" fill="#120d04"/><rect x="31" y="37" width="2" height="5" rx="1" fill="#120d04"/></svg><h1>Privacy Policy: Android</h1><div class="tag">Your PSWD. Your SECRET.</div><p class="sub">Last updated: 21 November 2026</p>
+<div class="badges"><span>No cloud</span><span>No account</span><span>No tracking</span><span>No ads</span></div></div>
+<nav class="toc"><a href="#new">12.5 and your privacy</a><a href="#us">Who we are</a><a href="#collect">What the app collects</a><a href="#stored">What is stored</a><a href="#encrypt">Protection</a><a href="#bio">Fingerprint unlock</a><a href="#net">Internet and third parties</a><a href="#perms">Permissions</a><a href="#clip">Clipboard and screen</a><a href="#back">Backups and exports</a><a href="#tools">Safety tools</a><a href="#mail">Help and Rate buttons</a><a href="#rights">Deleting your data</a><a href="#store">Google Play</a><a href="#emailus">Emailing us</a><a href="#security">Security</a><a href="#choices">Your choices</a><a href="#kids">Children</a><a href="#chg">Changes</a><a href="#who">Contact</a></nav>
+<div class="card"><b>In short:</b> My PSWD for Android does not collect, send or share any of your data. Your vault is created, encrypted and kept only on your phone. The app has no internet permission, no account, no ads, no analytics and no third-party code that collects data. I (the developer) cannot see, recover or reset your vault.</div>
+
+
+<section class="sec"><h2 id="new"><i>✨</i>My PSWD 12.5 and your privacy</h2>
+<ul><li><b>Still nothing collected:</b> no account, no ads, no tracking.</li>
+<li><b>First 3 minutes card, common-password warning and wallet card:</b> all made on your phone. Nothing is sent anywhere.</li>
+<li><b>Common-password check:</b> the app compares your password with a list of very common passwords that is built into the app. Your password is never sent to a website or a service.</li>
+<li><b>Decoy vault:</b> a second password opens a separate harmless vault. Both live only on your phone.</li>
+<li><b>New fingerprint screen:</b> Android's own system does the check. The app only receives a yes or no.</li></ul>
+
+</section><section class="sec"><h2 id="us"><i>👤</i>Who we are</h2>
+<p>My PSWD is made by James Jnr Keikura, an independent developer in Sydney, Australia. In this policy, "we", "us" and "the developer" mean James Jnr Keikura, and "the app" means My PSWD for Android. Apple versions have their own policy.</p>
+</section><section class="sec"><h2 id="collect"><i>🚫</i>What the app collects</h2>
+<p>Nothing. My PSWD has no account, sign-up or login, no advertising or ad tracking, no analytics or third-party code that collects data, and no servers of its own. The table shows what Google asks every app to declare.</p>
+<table><tr><th>Type of data</th><th>Collected by me?</th><th>Shared with anyone?</th></tr>
+<tr><td>Name, email address, phone number, user IDs</td><td>No</td><td>No</td></tr>
+<tr><td>Passwords, notes, logins you save</td><td>No. They stay on your phone.</td><td>No</td></tr>
+<tr><td>Location, contacts, photos, files, calendar</td><td>No</td><td>No</td></tr>
+<tr><td>Fingerprint or face data</td><td>No. Android checks it and only tells the app yes or no.</td><td>No</td></tr>
+<tr><td>Device identifiers, advertising ID</td><td>No</td><td>No</td></tr>
+<tr><td>Usage analytics, crash reports, diagnostics</td><td>No</td><td>No</td></tr>
+<tr><td>Purchase or payment information</td><td>No. The app is free, with no purchases.</td><td>No</td></tr></table>
+
+</section><section class="sec"><h2 id="stored"><i>📱</i>What is stored on your phone</h2>
+<p>These items live only inside the app's private storage on your phone. No other app can read them.</p>
+<ul><li><b>Your vault:</b> logins, secure notes, folders, categories and favourites, saved as one encrypted block.</li>
+<li><b>Your settings:</b> look and colour theme, language, auto-lock time, backup reminder and similar choices.</li>
+<li><b>The name you enter</b> (optional) so the app can greet you. It is kept inside your encrypted vault backup.</li>
+<li><b>The Bin:</b> items you delete stay for 30 days, still encrypted, then are removed.</li>
+<li><b>Automatic backups:</b> the app keeps a small rolling set of encrypted copies on the phone, so a mistake can be undone. They use the key that was current when each copy was made.</li>
+<li><b>Break-in Log:</b> a record, kept on the phone, of wrong-password attempts.</li></ul>
+
+</section><section class="sec"><h2 id="encrypt"><i>🔐</i>How your vault is protected</h2>
+<ul><li>Everything is encrypted with <b>AES-256-GCM</b> before it is saved.</li>
+<li>If you use a master password, the encryption key is made from it with <b>Argon2id</b>, a slow method that makes guessing very hard. The password itself is never stored.</li>
+<li>If you use fingerprint or screen-lock unlock, the app uses a long random key. That key is kept in the <b>Android Keystore</b>, protected by your fingerprint or screen lock, and does not leave your phone.</li>
+<li>With a PIN, the real key is a long random one. After 10 wrong tries the PIN is removed and you use your recovery key.</li></ul>
+<div class="think">Think of it as a safe-deposit box inside your own phone. Only you hold the key, and there is no copy at a bank.</div>
+
+</section><section class="sec"><h2 id="bio"><i>👆</i>Fingerprint and screen-lock unlock</h2>
+<p>If you turn this on, the check is done by Android's own system. The app never receives your fingerprint, face or screen-lock details. It only gets a yes or no. Some Android phones, including Samsung, treat face unlock as a weaker lock, so Android does not let apps use it for secrets. Fingerprint and your screen lock work.</p>
+
+</section><section class="sec"><h2 id="net"><i>🌐</i>Internet and third parties</h2>
+<ul><li>The app has <b>no internet permission</b> and no way to contact any server. It cannot upload your vault.</li>
+<li>It contains <b>no advertising, analytics or tracking code</b> and no code from data-collecting third parties.</li>
+<li>There are no accounts, sign-ups or logins to a service.</li></ul>
+
+</section><section class="sec"><h2 id="perms"><i>🔑</i>Permissions</h2>
+<table><tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Biometrics / fingerprint</td><td>Only to unlock your vault using Android's built-in system.</td></tr>
+<tr><td>Vibration</td><td>Small touch feedback.</td></tr></table>
+<p>The app does not ask for internet, storage, contacts, camera, microphone, location, phone or SMS permission.</p>
+
+</section><section class="sec"><h2 id="clip"><i>📋</i>Clipboard and screen</h2>
+<ul><li>When you tap Copy next to a username or password, the copied text is cleared from the clipboard after about 20 seconds. Panic Lock also clears it.</li>
+<li>The app blocks screenshots and hides its picture in the recent-apps view, so a password cannot be captured by accident. This is a security feature, not a fault.</li>
+<li>The vault locks itself after a time you choose (1, 5, 15 or 30 minutes of no use) and after one minute in the background.</li></ul>
+
+</section><section class="sec"><h2 id="back"><i>💾</i>Backups, exports and import</h2>
+<ul><li><b>Export:</b> you can save an encrypted backup file (.ppn). It is made on your phone and goes only where you choose, for example a folder or a share option you pick. It stays encrypted.</li>
+<li><b>Import:</b> you can import a .ppn vault file, or notes, Word or CSV files from other places. The file is read on your phone and is not uploaded anywhere.</li>
+<li><b>Android system backup is switched off</b> for this app, so Google backup and device-transfer tools do not copy your vault.</li>
+<li>If you share or print a file, it is stored by the app or service you chose, and their rules apply to that copy.</li></ul>
+
+</section><section class="sec"><h2 id="tools"><i>🛡️</i>Safety tools, and what they keep</h2>
+<ul><li><b>Recovery key:</b> a long code you can create so you can get back in if you forget the password. Write it on paper. I cannot see or recover it.</li>
+<li><b>Emergency Sheet:</b> a letter or wallet-size card that holds your recovery key for someone you trust. If you print or share it, you are responsible for it.</li>
+<li><b>Decoy vault:</b> an optional second password that opens a separate harmless vault. It is stored on the phone like the real one, and does not change your real vault.</li>
+<li><b>Health Check:</b> checks your own passwords on the phone for weak, reused, very common or old ones. Nothing is sent anywhere.</li>
+<li><b>Password generator and one-time codes:</b> created on the phone. One-time codes (2FA) are calculated on the phone from the secret you save.</li>
+<li><b>Panic Lock:</b> hold the lock button to lock at once and clear the clipboard.</li>
+<li><b>Wrong-password limit:</b> if you turn on the option to erase after repeated wrong passwords, the vault is erased on the phone after that many tries.</li></ul>
+
+</section><section class="sec"><h2 id="mail"><i>✉️</i>The Help and Rate buttons</h2>
+<p>The Help button opens your own mail app with a blank message. It sends something only if you press send in your mail app. The Rate button opens the Google Play page, where Google's own privacy policy applies.</p>
+
+</section><section class="sec"><h2 id="rights"><i>🗑️</i>Deleting your data</h2>
+<ul><li>All of your data is in the app on your phone, so you control it.</li>
+<li>To delete everything, uninstall My PSWD, or open Android Settings, then Apps, then My PSWD, then Storage, then Clear data. Nothing is stored anywhere else.</li>
+<li>Because I hold no copy, I cannot access, export or delete your vault for you, and I cannot recover it if you lose your phone, backup and recovery key.</li></ul>
+
+
+</section><section class="sec"><h2 id="store"><i>▶️</i>Google Play</h2>
+<p>When you download My PSWD, Google handles the download under its own privacy policy. Google may give developers anonymous, combined statistics, such as the number of installs or crash reports, but only if you have chosen to share them in your device's settings. This does not identify you and never includes your vault.</p>
+<p>If you join a Google Play test of My PSWD, Google may share the email address you used for the invitation, and any feedback or crash reports you choose to send, with the developer. These are used only to improve the app.</p>
+
+</section><section class="sec"><h2 id="emailus"><i>📨</i>Emailing us</h2>
+<p>If you email us, we receive your email address and whatever you include in your message. We use it only to reply to you and to fix problems. We do not add you to any mailing list or share your email with anyone, and you can ask us to delete your messages at any time. Please never send passwords, recovery keys or your master password.</p>
+
+</section><section class="sec"><h2 id="security"><i>🧱</i>Security</h2>
+<p>Because your information never leaves your phone, it is protected by your encrypted vault and by your phone's own security, such as your screen lock and fingerprint. We recommend keeping your phone's software up to date, keeping your recovery key on paper, and keeping a backup somewhere safe.</p>
+
+</section><section class="sec"><h2 id="choices"><i>🎛️</i>Your choices</h2>
+<ul><li><b>Turn a permission off:</b> Android Settings, then Apps, then My PSWD, then Permissions.</li>
+<li><b>Delete an item:</b> delete it in the app. It stays in the Bin for 30 days, then is removed.</li>
+<li><b>Delete everything:</b> uninstall the app, or use Clear data (see Deleting your data above).</li></ul>
+</section><section class="sec"><h2 id="kids"><i>🧒</i>Children</h2>
+<p>My PSWD is not directed at children and collects no personal information from anyone, including children.</p>
+
+</section><section class="sec"><h2 id="chg"><i>📝</i>Changes to this policy</h2>
+<p>If the app changes in a way that affects your privacy, we will update this page and change the "Last updated" date. If we ever start collecting any information, we will say so here first, and the app will ask for your permission. This policy covers My PSWD for Android 12.5 and earlier versions.</p>
+
+</section><section class="sec"><h2 id="who"><i>💬</i>Who I am and how to contact me</h2>
+<p>My PSWD is made by James Jnr Keikura, Sydney, Australia. Questions: please use the contact on the <a href="index.html">Support page</a>.</p>
+</section><footer>&copy; 2026 James Jnr Keikura &middot; My PSWD for Android</footer></main>
+<a class="top" href="#top" aria-label="Back to top">&uarr;</a>
+<script>try{var o=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');o.unobserve(x.target)}})},{threshold:.06});document.querySelectorAll('.sec').forEach(function(s){o.observe(s)})}catch(e){document.querySelectorAll('.sec').forEach(function(s){s.classList.add('in')})}</script>
+</body></html>
